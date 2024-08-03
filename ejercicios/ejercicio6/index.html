@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+
+    <style>
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #3b5998; 
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav h1{
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+    nav input{
+        width: 25%;
+        padding: 5px;
+        border-radius: 4px;
+        border: none;
+        font-size: 16px;
+    }
+    .navtitulo h1{
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .menu{
+        
+        padding: 50px 300px;
+       
+    }
+
+    .section_publicacion textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+        height: 100px;
+        resize: none;
+    }
+
+    .section_publicacion button{
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #3b5998;
+        color: white;
+        font-size: 16px;
+        border-radius: 4px;
+    
+    }
+    .publicaciones p{
+        margin: 10px 0 0;
+        
+    }
+    .article_compartido{   
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #fff;
+    }
+    .section_reacciones{
+        padding: 5px;
+    }
+    .section_reacciones button{
+        padding: 10px;
+        background-color: #3b5998;
+        color: white;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+    .section_comentar input{
+        width: 60%;
+        padding: 5px;
+        border-radius: 4px;
+        font-size: 16px;
+        
+    }
+    footer {
+    background-color: #3b5998; 
+    padding: 20px;
+    text-align: center;
+    
+    }
+    footer a{
+        color: white;
+        padding: 10px 20px;
+
+    }
+    
+    
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <nav class="navtitulo">
+            <h1>Facebook</h1>
+            
+        </nav>
+        <nav>
+            <h1>Inicio</h1>
+            <h1>Mensajes</h1>
+            <h1>Notificaciones</h1>
+            <h1>Perfil</h1>
+            <input type="text" placeholder="Buscar...">
+    
+        </nav>
+    </header>
+
+    <main class="menu">
+        <section class="section_publicacion">
+            <textarea placeholder="¿Qué estás pensando?"></textarea>
+            <button>Publicar</button>
+        </section>
+        <br>
+        <hr>
+        <section class="publicaciones">
+            <article class="article_compartido">
+                <h4>Juan Pérez</h4>
+                <br>
+                <p>¡Hoy he ido al cine y fue genial!</p>
+                <img src="img/AC2ETRLG7ZGKDFQYZKS2KGMKQQ.avif" alt="">
+                <section class="section_reacciones">
+                    <button>Me gusta</button>
+                    <button>Comentario</button>
+                    <button>Compartir</button>
+                </section>
+                <section class="section_comentar">
+                    <input type="text" placeholder="Escribe un comentario...">
+                    <button>Comentar</button>
+                </section>
+            </article>
+        </section>
+    </main>    
+    
+</body>
+<footer>
+        <p>RedSocial. Todos los derechos reservados.</p>
+        
+            <a href="">Términos</a>
+            <a href="">Política de Privacidad</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        
+    </div>
+</footer>
+</html>
